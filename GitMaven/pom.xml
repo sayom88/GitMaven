@@ -12,6 +12,13 @@
  
 </properties>
 
+<scm>
+    <connection>scm:git:git://github.com/sayom88/GitMaven.git</connection>
+    <developerConnection>scm:git:https://sayom88@github.com/sayom88/GitMaven.git</developerConnection>
+    <url>https://github.com/sayom88/GitMaven/</url>
+</scm>
+
+
   <dependencies>
  
 <dependency>

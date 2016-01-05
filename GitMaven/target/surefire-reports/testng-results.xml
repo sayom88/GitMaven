@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6128" started-at="2016-01-05T12:13:39Z" finished-at="2016-01-05T12:13:45Z">
+  <suite name="Suite" duration-ms="7908" started-at="2016-01-05T14:32:04Z" finished-at="2016-01-05T14:32:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6128" started-at="2016-01-05T12:13:39Z" finished-at="2016-01-05T12:13:45Z">
+    <test name="Test" duration-ms="7908" started-at="2016-01-05T14:32:04Z" finished-at="2016-01-05T14:32:12Z">
       <class name="pack1.GitMavenClass">
-        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:pack1.GitMavenClass@7129a843]" name="TestFireFox" duration-ms="6112" started-at="2016-01-05T17:43:39Z" finished-at="2016-01-05T17:43:45Z">
+        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:pack1.GitMavenClass@7129a843]" name="TestFireFox" duration-ms="7893" started-at="2016-01-05T20:02:04Z" finished-at="2016-01-05T20:02:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFireFox -->
