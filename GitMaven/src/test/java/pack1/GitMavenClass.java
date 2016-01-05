@@ -15,7 +15,7 @@ public class GitMavenClass {
 	 
 	driver.manage().window().maximize();
 	 
-	driver.get("http://www.facebook.com");
+	driver.get("http://www.goole.com");
 	 
 	//driver.quit();
 	 
