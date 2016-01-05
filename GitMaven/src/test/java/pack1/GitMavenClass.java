@@ -11,8 +11,10 @@ public class GitMavenClass {
 	public void TestFireFox(){
 	 
 		System.setProperty("webdriver.chrome.driver", "C:/ECLIPSE_WORKSPACE/chromedriver.exe");
-	WebDriver driver=new ChromeDriver();
+	//WebDriver driver=new ChromeDriver();
 	 
+	WebDriver driver=new FirefoxDriver();
+	
 	driver.manage().window().maximize();
 	 
 	driver.get("http://www.google.com");
