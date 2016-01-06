@@ -25,7 +25,7 @@ public class GitMavenClass {
 			   System.out.println("WebDriver is:"+driver);
 		    //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
 		    
-		    driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		    driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 		    
 		    //Launch website
 		    
