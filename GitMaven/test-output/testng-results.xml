@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[Application Lauched Successfully | ]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="6641" started-at="2016-01-05T12:09:14Z" finished-at="2016-01-05T12:09:21Z">
+  <suite name="Suite" duration-ms="7611" started-at="2016-01-06T03:17:40Z" finished-at="2016-01-06T03:17:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6641" started-at="2016-01-05T12:09:14Z" finished-at="2016-01-05T12:09:21Z">
+    <test name="Test" duration-ms="7611" started-at="2016-01-06T03:17:40Z" finished-at="2016-01-06T03:17:48Z">
       <class name="pack1.GitMavenClass">
-        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:pack1.GitMavenClass@44865ee]" name="TestFireFox" duration-ms="6618" started-at="2016-01-05T17:39:14Z" finished-at="2016-01-05T17:39:21Z">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.GitMavenClass@6c6a9507]" name="launchapp" is-config="true" duration-ms="7595" started-at="2016-01-06T08:47:40Z" finished-at="2016-01-06T08:47:48Z">
           <reporter-output>
+            <line>
+              <![CDATA[Application Lauched Successfully | ]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- TestFireFox -->
+        </test-method> <!-- launchapp -->
       </class> <!-- pack1.GitMavenClass -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

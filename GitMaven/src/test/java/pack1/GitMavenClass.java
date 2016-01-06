@@ -1,25 +1,42 @@
 package pack1;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Test;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
+import org.testng.annotations.*;
 
 public class GitMavenClass {
 
-	@Test
-	public void TestFireFox(){
-	 
-		System.setProperty("webdriver.chrome.driver", "C:/ECLIPSE_WORKSPACE/chromedriver.exe");
-	//WebDriver driver=new ChromeDriver();
-	 
-	WebDriver driver=new FirefoxDriver();
-	
-	driver.manage().window().maximize();
-	 
-	driver.get("http://www.google.com");
-	 
-	//driver.quit();
-	 
-	}
+	WebDriver driver = new FirefoxDriver();
+
+
+	//WebDriver driver;
+		
+		   @BeforeTest
+		   public void launchapp(){
+			// TODO Auto-generated method stub
+			
+			   //System.setProperty("webdriver.ie.driver","C://ECLIPSE_WORKSPACE//IEDriverServer.exe");
+			  // driver=new InternetExplorerDriver();
+			   
+			   System.out.println("WebDriver is:"+driver);
+		    //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
+		    
+		    driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		    
+		    //Launch website
+		    
+		    driver.navigate().to("http://www.finnair.com/int/gb/");
+		    
+		    //Maximize the browser
+		    driver.manage().window().maximize();
+		    
+		    Reporter.log("Application Lauched Successfully | ");
+		    
+		   }
+		   
+		   
 }
