@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Application Lauched Successfully | ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="7369" started-at="2016-01-06T03:33:09Z" finished-at="2016-01-06T03:33:16Z">
+  <suite name="Suite" duration-ms="8196" started-at="2016-01-06T05:23:38Z" finished-at="2016-01-06T05:23:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7369" started-at="2016-01-06T03:33:09Z" finished-at="2016-01-06T03:33:16Z">
-      <class name="pack1.GitMavenClass">
-        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.GitMavenClass@6fa51cd4]" name="launchapp" is-config="true" duration-ms="7362" started-at="2016-01-06T09:03:09Z" finished-at="2016-01-06T09:03:16Z">
+    <test name="Test" duration-ms="8196" started-at="2016-01-06T05:23:38Z" finished-at="2016-01-06T05:23:47Z">
+      <class name="pack1.MavenGitTest">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.MavenGitTest@1f4f53dd]" name="launchapp" duration-ms="8171" started-at="2016-01-06T10:53:38Z" finished-at="2016-01-06T10:53:47Z">
           <reporter-output>
             <line>
               <![CDATA[Application Lauched Successfully | ]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchapp -->
-      </class> <!-- pack1.GitMavenClass -->
+      </class> <!-- pack1.MavenGitTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

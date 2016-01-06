@@ -5,19 +5,19 @@
       <![CDATA[Application Lauched Successfully | ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="8128" started-at="2016-01-06T05:10:24Z" finished-at="2016-01-06T05:10:32Z">
+  <suite name="Suite" duration-ms="8028" started-at="2016-01-06T05:25:02Z" finished-at="2016-01-06T05:25:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8128" started-at="2016-01-06T05:10:24Z" finished-at="2016-01-06T05:10:32Z">
-      <class name="pack1.GitMavenClass">
-        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.GitMavenClass@4dc9fc5d]" name="launchapp" duration-ms="8111" started-at="2016-01-06T10:40:24Z" finished-at="2016-01-06T10:40:32Z">
+    <test name="Test" duration-ms="8028" started-at="2016-01-06T05:25:02Z" finished-at="2016-01-06T05:25:10Z">
+      <class name="pack1.MavenGitTest">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.MavenGitTest@4dc9fc5d]" name="launchapp" duration-ms="8013" started-at="2016-01-06T10:55:02Z" finished-at="2016-01-06T10:55:10Z">
           <reporter-output>
             <line>
               <![CDATA[Application Lauched Successfully | ]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchapp -->
-      </class> <!-- pack1.GitMavenClass -->
+      </class> <!-- pack1.MavenGitTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
