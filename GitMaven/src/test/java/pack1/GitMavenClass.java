@@ -15,7 +15,7 @@ public class GitMavenClass {
 
 	//WebDriver driver;
 		
-		   @BeforeTest
+		   @Test
 		   public void launchapp(){
 			// TODO Auto-generated method stub
 			
