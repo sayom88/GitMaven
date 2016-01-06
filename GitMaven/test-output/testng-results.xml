@@ -5,12 +5,12 @@
       <![CDATA[Application Lauched Successfully | ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="7611" started-at="2016-01-06T03:17:40Z" finished-at="2016-01-06T03:17:48Z">
+  <suite name="Suite" duration-ms="7369" started-at="2016-01-06T03:33:09Z" finished-at="2016-01-06T03:33:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7611" started-at="2016-01-06T03:17:40Z" finished-at="2016-01-06T03:17:48Z">
+    <test name="Test" duration-ms="7369" started-at="2016-01-06T03:33:09Z" finished-at="2016-01-06T03:33:16Z">
       <class name="pack1.GitMavenClass">
-        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.GitMavenClass@6c6a9507]" name="launchapp" is-config="true" duration-ms="7595" started-at="2016-01-06T08:47:40Z" finished-at="2016-01-06T08:47:48Z">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.GitMavenClass@6fa51cd4]" name="launchapp" is-config="true" duration-ms="7362" started-at="2016-01-06T09:03:09Z" finished-at="2016-01-06T09:03:16Z">
           <reporter-output>
             <line>
               <![CDATA[Application Lauched Successfully | ]]>
