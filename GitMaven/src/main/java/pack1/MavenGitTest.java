@@ -22,7 +22,7 @@ public class MavenGitTest {
 			   //System.setProperty("webdriver.ie.driver","C://ECLIPSE_WORKSPACE//IEDriverServer.exe");
 			  // driver=new InternetExplorerDriver();
 			   
-			   System.out.println("WebDriver is:"+driver);
+			   System.out.println("The WebDriver is:"+driver);
 		    //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
 		    
 		    driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
@@ -36,7 +36,7 @@ public class MavenGitTest {
 		    //Maximize the browser
 		    driver.manage().window().maximize();
 		    
-		    Reporter.log("Application Lauched Successfully | ");
+		    Reporter.log("Google Application Lauched Successfully | ");
 		    
 		   }
 		   
