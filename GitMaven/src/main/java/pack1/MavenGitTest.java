@@ -31,12 +31,14 @@ public class MavenGitTest {
 		    
 		    //driver.navigate().to("http://www.finnair.com/int/gb/");
 		    
-		    driver.navigate().to("http://www.google.com");
+		    driver.navigate().to("http://mail.yahoo.com");
 		    
 		    //Maximize the browser
 		    driver.manage().window().maximize();
 		    
-		    Reporter.log("Google Application Lauched Successfully | ");
+		   
+		    
+		    Reporter.log("Yahoo Mail Application Lauched Successfully | ");
 		    
 		   }
 		   

@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Application Lauched Successfully | ]]>
+      <![CDATA[Google Application Lauched Successfully | ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="8028" started-at="2016-01-06T05:25:02Z" finished-at="2016-01-06T05:25:10Z">
+  <suite name="Suite" duration-ms="11151" started-at="2016-01-13T11:05:22Z" finished-at="2016-01-13T11:05:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8028" started-at="2016-01-06T05:25:02Z" finished-at="2016-01-06T05:25:10Z">
+    <test name="Test" duration-ms="11151" started-at="2016-01-13T11:05:22Z" finished-at="2016-01-13T11:05:33Z">
       <class name="pack1.MavenGitTest">
-        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.MavenGitTest@4dc9fc5d]" name="launchapp" duration-ms="8013" started-at="2016-01-06T10:55:02Z" finished-at="2016-01-06T10:55:10Z">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:pack1.MavenGitTest@4dc9fc5d]" name="launchapp" duration-ms="11134" started-at="2016-01-13T16:35:22Z" finished-at="2016-01-13T16:35:33Z">
           <reporter-output>
             <line>
-              <![CDATA[Application Lauched Successfully | ]]>
+              <![CDATA[Google Application Lauched Successfully | ]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchapp -->
