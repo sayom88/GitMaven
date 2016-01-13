@@ -31,8 +31,10 @@ public class MavenGitTest {
 		    
 		    //driver.navigate().to("http://www.finnair.com/int/gb/");
 		    
-		    driver.navigate().to("http://mail.yahoo.com");
+		    driver.navigate().to("htttp://www.finnair.com/int/gb/");
 		    
+		  //  https://swarnasetu-beta.mybluemix.net/ 
+		    	
 		    //Maximize the browser
 		    driver.manage().window().maximize();
 		    
