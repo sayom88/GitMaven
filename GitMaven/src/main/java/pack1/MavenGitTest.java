@@ -25,7 +25,7 @@ public class MavenGitTest {
 			   //System.setProperty("webdriver.ie.driver","C://ECLIPSE_WORKSPACE//IEDriverServer.exe");
 			  // driver=new InternetExplorerDriver();
 			   
-			   System.out.println("The WebDriver IS SHOWN HERE:"+driver);
+			   System.out.println("The WebDriver IS SHOWN HERE::"+driver);
 		  
 		    driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 		    
