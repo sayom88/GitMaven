@@ -40,8 +40,9 @@ public class MavenGitTest {
 	           }
 	        	  
 		    //Launch website
-		    driver.navigate().to(app_url);
+		    driver.navigate().to("http://google.com");
 		  	
+		    // https://swarnasetu-beta.mybluemix.net/
 		    //Maximize the browser
 		    driver.manage().window().maximize();
 		    
