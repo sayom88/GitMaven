@@ -20,40 +20,40 @@
       <![CDATA[VERIFICATION PASSED :: WELCOME MESSAGE IS SUCCESSFULL | ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="26062" started-at="2016-01-14T06:25:43Z" finished-at="2016-01-14T06:26:09Z">
+  <suite name="Suite" duration-ms="49707" started-at="2016-01-14T13:09:25Z" finished-at="2016-01-14T13:10:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26062" started-at="2016-01-14T06:25:43Z" finished-at="2016-01-14T06:26:09Z">
+    <test name="Test" duration-ms="49707" started-at="2016-01-14T13:09:25Z" finished-at="2016-01-14T13:10:15Z">
       <class name="pack1.MavenGitTest">
-        <test-method status="PASS" signature="app_launch()[pri:0, instance:pack1.MavenGitTest@56076eaa]" name="app_launch" is-config="true" duration-ms="7907" started-at="2016-01-14T11:55:43Z" finished-at="2016-01-14T11:55:50Z">
+        <test-method status="PASS" signature="app_launch()[pri:0, instance:pack1.MavenGitTest@6e814ecf]" name="app_launch" is-config="true" duration-ms="10843" started-at="2016-01-14T18:39:25Z" finished-at="2016-01-14T18:39:36Z">
           <reporter-output>
             <line>
               <![CDATA[Application Lauched Successfully | ]]>
             </line>
           </reporter-output>
         </test-method> <!-- app_launch -->
-        <test-method status="PASS" signature="app_signin()[pri:0, instance:pack1.MavenGitTest@56076eaa]" name="app_signin" duration-ms="1192" started-at="2016-01-14T11:55:50Z" finished-at="2016-01-14T11:55:52Z">
+        <test-method status="PASS" signature="app_signin()[pri:0, instance:pack1.MavenGitTest@6e814ecf]" name="app_signin" duration-ms="1488" started-at="2016-01-14T18:39:36Z" finished-at="2016-01-14T18:39:37Z">
           <reporter-output>
             <line>
               <![CDATA[Sign-In Operation Into the Cloud Directory of the Application Successfully Done | ]]>
             </line>
           </reporter-output>
         </test-method> <!-- app_signin -->
-        <test-method status="PASS" signature="app_login()[pri:0, instance:pack1.MavenGitTest@56076eaa]" name="app_login" duration-ms="2196" started-at="2016-01-14T11:55:52Z" finished-at="2016-01-14T11:55:54Z">
+        <test-method status="PASS" signature="app_login()[pri:0, instance:pack1.MavenGitTest@6e814ecf]" name="app_login" duration-ms="2257" started-at="2016-01-14T18:39:37Z" finished-at="2016-01-14T18:39:40Z">
           <reporter-output>
             <line>
               <![CDATA[User Logged Into the Application Successfully | ]]>
             </line>
           </reporter-output>
         </test-method> <!-- app_login -->
-        <test-method status="PASS" signature="app_authorizetoconsent()[pri:0, instance:pack1.MavenGitTest@56076eaa]" name="app_authorizetoconsent" duration-ms="14669" started-at="2016-01-14T11:55:54Z" finished-at="2016-01-14T11:56:09Z">
+        <test-method status="PASS" signature="app_authorizetoconsent()[pri:0, instance:pack1.MavenGitTest@6e814ecf]" name="app_authorizetoconsent" duration-ms="34959" started-at="2016-01-14T18:39:40Z" finished-at="2016-01-14T18:40:14Z">
           <reporter-output>
             <line>
               <![CDATA[Application Authorization Successfull | ]]>
             </line>
           </reporter-output>
         </test-method> <!-- app_authorizetoconsent -->
-        <test-method status="PASS" signature="app_homepage()[pri:0, instance:pack1.MavenGitTest@56076eaa]" name="app_homepage" duration-ms="72" started-at="2016-01-14T11:56:09Z" finished-at="2016-01-14T11:56:09Z">
+        <test-method status="PASS" signature="app_homepage()[pri:0, instance:pack1.MavenGitTest@6e814ecf]" name="app_homepage" duration-ms="132" started-at="2016-01-14T18:40:14Z" finished-at="2016-01-14T18:40:15Z">
           <reporter-output>
             <line>
               <![CDATA[Into the Application Home Page | ]]>
